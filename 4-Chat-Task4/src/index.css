@@ -1,0 +1,420 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+  width: 100%;
+  height: 100vh;
+}
+
+.login{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.c{
+   width: 400px;
+  height: fit-content;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.card{
+  width: 400px;
+  height: fit-content;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0px 4px 7px black;
+}
+
+.card h1{
+  font-size: 24px;
+}
+
+.users{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.user{
+     width: fit-content;
+     height: fit-content;
+     background-color: #EFEFEF;
+     padding: 50px 50px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 6px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+.user:hover{
+  box-shadow: 0px 3px 15px black;
+}
+
+.login button{
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  border: none;
+}
+
+.user p {
+  background-color: rgba(0, 128, 0, 0.283);
+  color: green;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* chat page */
+
+.page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.forms{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: 0px 5px 5px black; */
+  position: absolute;
+  z-index: 1;  
+  background-color: rgba(136, 151, 156, 0.696);
+}
+
+
+.forms h1{
+  font-size: 24px;
+}
+
+.form-data{
+  width: 300px;
+  height: fit-content ;
+  box-shadow: 0px 6px 9px black;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+}
+
+.for-data{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.names{
+  display: flex;
+  flex-direction: column;  
+  gap: 10px;
+}
+.for-data h4{
+   font-size: 12px;
+}
+
+.for-data input{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 90px;
+  padding-left: 10px;
+  outline: none;
+}
+
+.memb{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+.m{
+  display: flex;
+  justify-content: space-between  ;
+  align-items: center;
+}
+
+.form-but{
+  display: flex;
+  justify-content: space-between  ;
+  
+}
+
+.form-data button{
+  font-size: 13px;
+  padding: 7px 7px;
+  border-radius: 5px;
+  background-color: rgba(11, 6, 70, 0.788)
+}
+
+.f-t{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 70px;
+}
+.f-t i{
+  font-size: 25px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+/*  */
+.left{
+  width: fit-content;
+  height: 100%;
+  background-color:#00091298;
+  color: white;
+  padding: 10px 10px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-pro{
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.top-pro button{
+  font-size: 10px;
+  padding: 5px 7px;
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.349);
+  border: none;
+  color: white;
+  box-shadow: 0px 4px 8px white;
+  border-radius: 5px;
+
+}
+
+.profile .h{
+  background-color: rgba(4, 3, 101, 0.74);
+  padding: 10px 10px;
+  font-size: 14px;
+  box-shadow: 0px 4px 8px rgba(12, 12, 12, 0.918);
+
+  /* width: fit-content; */
+  border-radius: 5px;
+}
+
+
+.profile-p{
+  font-size: 16px;
+  padding: 3px 10px;
+  box-shadow: 0px 4px 8px white;
+  border-radius: 5px;
+  font-weight: 100;
+  background-color: rgba(0, 0, 0, 0.607);
+}
+
+.profile-btn{
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+
+}
+.profile-btn button{
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgba(0, 0, 255, 0.443);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+
+}
+.mem{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 4px 4px;
+  box-shadow: 0px 3px 8px rgb(205, 200, 200);
+  cursor: pointer;
+  background-color: rgba(5, 2, 18, 0.443);
+  border-radius: 5px;
+}
+
+.profile .h{
+  font-size: 17px;
+ }
+.mem .user-p{
+  font-size: 10px;
+
+}
+.mem .user-d{
+  font-size: 15px;
+}
+
+
+
+.mid{
+  width: 100%;
+  height:100%;
+  background-color: rgba(219, 194, 194, 0.753);
+}
+
+.chat{
+   width: 100%;
+   height: 100%;
+   padding: 0px 10px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+.chat h4{
+  font-size: 14px;
+  font-weight: 900;
+}
+.nav{
+  color: rgba(0, 0, 0, 0.342);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  margin-right: 15px;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.103);
+  box-shadow: 0px 0px 12px rgb(16, 13, 13);
+  font-weight: 900;
+  color: rgb(15, 15, 15);
+  margin-bottom: 40px;
+}
+
+.chat-gap{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.g-chat{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 3px;
+  width: fit-content;
+  background-color: #2c2c3583;
+  box-shadow: 0px 3px 10px black;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.m-time{
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-weight: 100;
+}
+.g-chat p{
+  color: white;
+  font-weight: 500;
+  font-size: 11px;
+}
+.g-chat h5{
+  color: blue;
+  font-weight: 700;
+}
+
+.chat-box{
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 2%;
+  margin-left: 30%;
+}
+.chat-box input{
+  width: 250px;
+  outline: none;
+  padding: 10px 5px;
+  box-shadow: 0px 5px 10px rgb(144, 128, 128);
+  border: none;
+  border-radius: 5px;
+}
+.chat-box button{
+  padding: 4px 10px;
+  background-color: rgba(13, 31, 170, 0.68);
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 5px 7px rgb(84, 84, 224);
+  border-radius: 5px;
+}
+
+/*  */
+
+.right{
+  width: 20%;
+  height: 100%;
+  background-color: #2C3E50;
+  color: white;
+}
+
+.history{
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.history button{
+  background-color: red;
+  border: none;
+  font-size: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 7px 10px;
+  color: white;
+  cursor: pointer;
+}
+.history h1{
+ font-size: 17px;
+}
+
+.his{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.create-form{
+  color: rgba(0, 0, 0, 0.235);
+  margin-top: 20%;
+  margin-left: 46%;
+  font-size: 25px;
+}
