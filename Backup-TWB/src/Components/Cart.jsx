@@ -8,7 +8,7 @@ const Cart = ({ arrd ,remove,update}) => {
           <h4>Name : {value.name}</h4>
           <p>Age : {value.age}</p>
           <div className="btn">
-            <button onClick={()=>update(idx,value)}>Update</button>
+            <button onClick={()=>update(value,idx)}>Update</button>
             <button onClick={()=>{remove(idx)}}>Delete</button>
           </div>
         </div>;

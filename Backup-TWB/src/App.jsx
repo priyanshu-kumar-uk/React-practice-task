@@ -13,7 +13,7 @@ const App = () => {
       e.preventDefault()
       let newdata = [...arrd,data]
       setarrd(newdata)
-      console.log(newdata) 
+      setData({name:"", age:""})
   }
 
   function handleData(d){
@@ -33,12 +33,10 @@ const App = () => {
    setarrd(newarr)
   }
 
-  function update(idex){
-      
+  function update(value,idex){     
     setarrd((prev)=>{
-        prev.map((item,idx)=>idx===idex?{...item,...data}:item)
+       return prev.map((item,idx)=>idx===idex?{...item,...value}:item)
     })
-
   }
 
   return (
