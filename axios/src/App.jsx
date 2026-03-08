@@ -11,7 +11,6 @@ const App = () => {
   return (
     <div>
       <button onClick={() => apidata()}>Get Data</button>
-
       {userdata.map((elem) => {
        return <div className="div">
           <h1>{elem.category}</h1>
