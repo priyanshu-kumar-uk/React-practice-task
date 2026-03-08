@@ -12,7 +12,6 @@ const Cart = () => {
 
   function remove(v) {
     let d = data.filter((r) => r.id !== v);
-    console.log(d)
     setData(d);
   }
   function incree(v){
